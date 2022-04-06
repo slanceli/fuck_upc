@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">fuck_upc</string>
+    <string name="date">日期</string>
+    <string name="please_enter_date">请选择日期</string>
+    <string name="wxkey">wxkey</string>
+    <string name="parameter">场地参数</string>
+    <string name="submit">提交</string>
+    <string name="help">场地参数示例：Y:1,8:00–8:30;为主馆一号场地8:00–8:30，多块场地（小于4）：G:1,8:00–8:30;G:2,8:00–8:30;
+        注意分号！！！其中Y为主馆，A为副馆。</string>
+    <string name="loading">正在登录</string>
+    <string name="positive">确定</string>
+    <string name="cancel">取消</string>
+    <string name="title">消息</string>
+</resources>
