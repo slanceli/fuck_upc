@@ -90,6 +90,18 @@
         app:layout_constraintStart_toStartOf="@+id/textFieldParameter"
         app:layout_constraintTop_toBottomOf="@+id/textFieldParameter" />
 
+    <Button
+        android:id="@+id/outlinedButtonSaveParam"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/saveParam"
+        app:layout_constraintEnd_toEndOf="@+id/outlinedButtonSubmit"
+        app:layout_constraintStart_toStartOf="@+id/outlinedButtonSubmit"
+        app:layout_constraintTop_toBottomOf="@+id/outlinedButtonSubmit" />
+
+
     <com.google.android.material.progressindicator.CircularProgressIndicator
         android:id="@+id/loadingCircul"
         android:layout_width="wrap_content"
@@ -99,29 +111,7 @@
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="@+id/textFieldParameter"
         app:layout_constraintStart_toStartOf="@+id/textFieldParameter"
-        app:layout_constraintTop_toBottomOf="@+id/outlinedButtonSubmit" />
+        app:layout_constraintTop_toBottomOf="@+id/outlinedButtonSaveParam" />
 
-    <TextView
-        android:id="@+id/text_view_loading"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:text="@string/loading"
-        android:visibility="invisible"
-        app:layout_constraintEnd_toEndOf="@+id/loadingCircul"
-        app:layout_constraintStart_toStartOf="@+id/loadingCircul"
-        app:layout_constraintTop_toBottomOf="@+id/loadingCircul" />
-
-    <TextView
-        android:id="@+id/text_view_help"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:text="@string/help"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loadingCircul" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

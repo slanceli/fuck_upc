@@ -67,6 +67,14 @@ class MainActivity : AppCompatActivity() {
             mainActivityViewModel.getDateStringLiveData().value = binding.textInputDate.text.toString()
             mainActivityViewModel.submit()
         }
+
+        binding.outlinedButtonSaveParam.setOnClickListener {
+            mainActivityViewModel.getWxKeyLiveData().value = binding.textInputWxkey.text.toString()
+            mainActivityViewModel.getDateStringLiveData().value = binding.textInputDate.text.toString()
+            mainActivityViewModel.getCdStringLiveData().value = binding.textInputParameter.text.toString()
+            mainActivityViewModel.setDataStore()
+        }
+        //TODO:增加第二种订场方式，轮询时间戳，八点后自动发送请求。
     }
 
     private fun setObserver() {

@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Data/Sources/Android/fuck_upc/app/src/main/res/drawable/ic_launcher_background.xml" value="0.247" />
+        <entry key="..\:/Data/Sources/Android/fuck_upc/app/src/main/res/drawable/notifications-20px.xml" value="0.247" />
+        <entry key="..\:/Data/Sources/Android/fuck_upc/app/src/main/res/drawable/notifications-48px.xml" value="0.251" />
+        <entry key="..\:/Data/Sources/Android/fuck_upc/app/src/main/res/drawable/notifications.xml" value="0.247" />
+        <entry key="..\:/Data/Sources/Android/fuck_upc/app/src/main/res/drawable/outline_event_24.xml" value="0.251" />
+        <entry key="..\:/Data/Sources/Android/fuck_upc/app/src/main/res/drawable/outline_login_20.xml" value="0.247" />
+        <entry key="..\:/Data/Sources/Android/fuck_upc/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
